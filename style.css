@@ -34,6 +34,20 @@ h4 {
   text-align: left;
 }
 
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+}
+
 p {
   border-radius: 4px;
   font-size: 18px;
